@@ -1,0 +1,29 @@
+{
+  "name": "gulp-ml-admin",
+  "version": "0.1.0",
+  "description": "Gulp tasks for ml-admin",
+  "main": "dist/lib/index.js",
+  "repository": "christyharagan/gulp-ml-uservices",
+  "author": {
+    "name": "Christy Haragan",
+    "email": "christy.haragan.github@gmail.com",
+    "url": "https://github.com/christyharagan"
+  },
+  "typescript": {
+    "definition": "gulp-ml-admin.d.ts"
+  },
+  "keywords": [
+    "gulp",
+    "marklogic",
+    "admin"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "ml-admin": "^0.1.0",
+    "ml-typescript-definitions": "^0.1.0",
+    "through2": "^2.0.0",
+    "typescript": "^1.5.0-beta",
+    "typescript-schema": "^0.1.0",
+    "vinyl": "^0.5.0"
+  }
+}
